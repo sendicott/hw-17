@@ -5,6 +5,8 @@
 
 let testCase = "But you, Achilles, there's not a man in the world more blest than you - there never has been, never will be one. Time was, when you were alive, we Argives honored you as a god, and now down here, I see, you lord it over the dead in all your power. So grieve no more at dying, great Achilles.";
 
+let otherTestCase = "Then it was sweet fern, growing ankle high, to walk through, and clumps of jack pines; a long undulating country with frequent rises and descents, sandy underfoot and the country alive again.";
+
 function capitalize(word) {
     let titleCase = word.charAt(0).toUpperCase() + word.slice(1);
     return titleCase;
@@ -19,3 +21,4 @@ function wholeNineYards(sentence) {
 }
 
 console.log(wholeNineYards(testCase));
+console.log(wholeNineYards(otherTestCase));

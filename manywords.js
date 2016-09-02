@@ -49,7 +49,7 @@ function pickTheBest(snowball, snowflake) {
 function kitAndCaboodle(sentence) {
     // 1. turns sentence into array of words
     let wordArray = sentence.split(" ");
-    // console.log(wordArray);
+    console.log(wordArray);
     // 2. turns array of words into an array of objects with score appended
     let objectArray = wordArray.map(wordSplit);
     let greaterGood = objectArray.reduce(pickTheBest, objectArray[0]);
